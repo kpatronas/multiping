@@ -3,7 +3,7 @@ A simple bash script to perform pings multiple pings from a remote host to anoth
 
 # What it does
 multiping is a very simple bash script which gets as input a list of hosts in the format of <from_host>,<to_host>,<packets> and ssh in each of from_host and pings to_host with the number of packets specified in the file. Then it prints out the average latency and packet loss for each pair of hosts.
-Note that the script connects to the hosts in parallel
+Note that the script connects to the hosts in parallel and assumes that you use ssh keys.
 
 #Example
 
